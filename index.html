@@ -19,51 +19,22 @@
       href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
       rel="stylesheet"
     />
-
+    <script src="main.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <ul class="menu">
       <li class="link"><a href="#home">Home</a></li>
       <li class="link">
-        <select name="teachers" id="teachers">
-          <option class="link">Teachers</option>
-          <option class="link"><a href="#anita">Anita Shah</a></option>
-          <option class="link"><a href="#bhanu">Bhanu Keswani</a></option>
-          <option class="link"><a href="#komal">Komal Saksena</a></option>
-          <option class="link"><a href="#neha">Neha Solanki</a></option>
-        </select>
+        <button class="btn btn-success" onclick="teacher()">Teachers</button>
       </li>
       <li class="link">
-        <select name="students" id="students">
-          <option>Students</option>
-          <option><a>Aaditya Mehta</a></option>
-          <option><a>Aarav Thakore</a></option>
-          <option><a>Ananya Parekh</a></option>
-          <option><a>Devarsh Nayak</a></option>
-          <option><a>Devraj Chauhan</a></option>
-          <option><a>Devya Shah</a></option>
-          <option><a>Dikshha Sinha</a></option>
-          <option><a>Farhan Mansuri</a></option>
-          <option><a>Hiya Bhavsar</a></option>
-          <option><a>Hiya Shah</a></option>
-          <option><a>Kushagra Pathak</a></option>
-          <option><a>Liza Mathew</a></option>
-          <option><a>Mitali Parmar</a></option>
-          <option><a>Mohammed Raza Khunt</a></option>
-          <option><a>Naqiya Rangwala</a></option>
-          <option><a>Neoma Kava</a></option>
-          <option><a>Noor Sehgal</a></option>
-          <option><a>Pranshu Raithatha</a></option>
-          <option><a>Pratyush Pandya</a></option>
-          <option><a>Shivani Patel</a></option>
-          <option><a>Tushar Parida</a></option>
-          <option><a>Vivaan Thakkar</a></option>
-          <option><a>Veer Shah</a></option>
-        </select>
+        <button class="btn btn-success" onclick="student()">Students</button>
       </li>
-      <li class="link"><a>Students Work</a></li>
-      <li class="link"><a>Contact us</a></li>
+
+      <li class="link">
+        <button class="btn btn-success" onclick="contact()">Contact Us</button>
+      </li>
       <li class="link"><a href="#about">About us</a></li>
     </ul>
     <section id="home">
@@ -79,66 +50,7 @@
       </h1>
     </section>
     <br /><br /><br />
-    <section id="teachers">
-      <h1 style="text-align: center; font-family: 'Titan One', cursive">
-        Teachers
-      </h1>
 
-      <div class="line"></div>
-      <section id="anita">
-        <h2 class="teacher_name">Anita Shah</h2>
-        <div class="line"></div>
-        <p class="about btn" style="font-size: 20px" width="100%">
-          Anita is one of the senior teachers of MGIS, she has been part of the
-          school since 2004. She was the Primary coordinator for many years,
-          guiding, collaborating and planning with the team of Primary teachers
-          for Cambridge International Examination (Primary). She also planned,
-          attended and conducted pedagogical workshops to train teachers in our
-          school, developed units to integrate curriculum into class projects
-          and conducted teacher-training workshops with visiting teachers on
-          behalf of the school for example for GCERT. As an IB MYP class
-          teacher, she does collaborative planning for teaching and assessment
-          and works closely with local organizations like CEE to integrate
-          environmental education into classroom teaching. As the IBDP Theory of
-          knowledge coordinator, she plans classes with DP teachers and conducts
-          evaluations for Theory of knowledge in the IB Diploma programme.
-        </p>
-      </section>
-      <br />
-      <section id="bhanu">
-        <h2 class="teacher_name">Bhanu Keswani</h2>
-        <div class="line"></div>
-        <p class="about btn" style="font-size: 20px" width="100%"></p>
-      </section>
-      <br />
-      <section id="komal">
-        <h2 class="teacher_name">Komal Saksena</h2>
-        <div class="line"></div>
-        <p class="about btn" style="font-size: 20px" width="100%">
-          Komal joined MGIS in June 2013. She has a Post Graduation degree in
-          plant physiology and biochemistry and a Bachelor in Education. “My
-          experience in this unique school has been very enriching for me at a
-          personal as well as professional level. I have learnt a lot through
-          the different projects I have been part of over the years. My favorite
-          projects would be the cafe project which I did with grade 6 and
-          creating eco-friendly products out of waste with grade 8. Both these
-          projects were so diverse and rich in learning.” In the cafe project,
-          she taught students about the cost of different products used for
-          cooking, the concept of states of matter, physical and chemical
-          change, digestive system, profit and loss, percentage, writing their
-          own recipes, designing and writing their own menu card, making their
-          own table mats using the concept of measurements etc. Learning and
-          practicing life skills through this project was the best part of this
-          project and the kids enjoyed being a part of this.
-        </p>
-      </section>
-      <br />
-      <section id="neha">
-        <h2 class="teacher_name">Neha Solanki</h2>
-        <div class="line"></div>
-        <p class="about btn" style="font-size: 20px" width="100%"></p>
-      </section>
-    </section>
     <br />
     <section id="about">
       <h1 style="text-align: center; font-family: 'Titan One', cursive">
@@ -163,5 +75,7 @@
         </sub>
       </p>
     </section>
+
+    <br />
   </body>
 </html>
