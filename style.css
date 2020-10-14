@@ -28,9 +28,6 @@ body {
 .link:hover {
   background-color: darkcyan;
 }
-#home {
-  background-color: turquoise;
-}
 
 .line {
   width: 50px;

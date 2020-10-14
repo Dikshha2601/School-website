@@ -9,3 +9,7 @@ function go_home() {
 function contact() {
   window.location = "contact.html";
 }
+
+function about() {
+  window.location = "about.html";
+}
